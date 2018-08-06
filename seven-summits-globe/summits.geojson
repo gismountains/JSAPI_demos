@@ -1,0 +1,209 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "summits",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -85.4166870117, -78.5833129883 ]
+			},
+			"properties" : {
+				"geonameid" : 6627584,
+				"name" : "Vinson Massif",
+				"asciiname" : "Vinson Massif",
+				"alternatenames" : "Gara Vinsan,Macico Vinson,Macizo Vinson,Maciço Vinson,Masiv Vinson,Masivul Vinson,Massiccio Vinson,Massif Vinson,Massis Vinson,Massiv Vinson,Massís Vinson,Masyw Vinsona,Menez Vinson,Monto Vinson,Mount",
+				"latitude" : -78.58333,
+				"longitude" : -85.41667,
+				"feature_class" : "T",
+				"feature_code" : "MTS",
+				"country_code" : "AQ",
+				"elevation" : 4897,
+				"dem" : 3863,
+				"altitude" : 4897,
+				"timezone" : "Antarctica/McMurdo",
+				"modification_date" : "2008-01-20",
+				"zoom" : "9.24",
+				"tilt" : "70.5",
+				"heading" : "123",
+				"camera_pos_lat" : -78.141,
+				"camera_pos_lon" : -88.302,
+				"camera_pos_z" : 26800
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -70.0114135742, -32.6538085938 ]
+			},
+			"properties" : {
+				"geonameid" : 3866949,
+				"name" : "Cerro Aconcagua",
+				"asciiname" : "Cerro Aconcagua",
+				"alternatenames" : "Aconcagua,Aconcágua,Akonkagua,Akonkaguwa,Akonkagva,Akonkagvo,Aqonqhawaq,Aqunqhawaq,Cerro Aconcagua,Mount Aconcagua,a kong jia gua shan,akonkagua,yxd khea xa kx nka kwa,ʼqwnqgwwh,Аконкагуа,אקונקגווה,ยอ",
+				"latitude" : -32.65383,
+				"longitude" : -70.01141,
+				"feature_class" : "T",
+				"feature_code" : "MT",
+				"country_code" : "AR",
+				"elevation" : 6959,
+				"dem" : 6840,
+				"altitude" : 6959,
+				"timezone" : "America/Argentina/Mendoza",
+				"modification_date" : "2016-01-30",
+				"zoom" : "13.5",
+				"tilt" : "72",
+				"heading" : "244",
+				"camera_pos_lat" : -32.59,
+				"camera_pos_lon" : -69.82,
+				"camera_pos_z" : 10000
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 137.1583251953, -4.0786132813 ]
+			},
+			"properties" : {
+				"geonameid" : 1642658,
+				"name" : "Puncak Jaya",
+				"asciiname" : "Puncak Jaya",
+				"alternatenames" : "Carstensz Pyramid,Carstensz Pyramide,Carstensz-Pyramide,Carstensz-piramido,Dzaja,Dzhaja,Džaja,Gara Dzhaja,Gunung Carstensz,Gunung Jaya,Jaya,Nemangkawi,Piramida da Carstensz,Piramide Carstensz,Piramide",
+				"latitude" : -4.07861,
+				"longitude" : 137.15833,
+				"feature_class" : "T",
+				"feature_code" : "PK",
+				"country_code" : "ID",
+				"elevation" : 4884,
+				"dem" : 4805,
+				"altitude" : 4884,
+				"timezone" : "Asia/Jayapura",
+				"modification_date" : "2014-09-05",
+				"zoom" : "15.3",
+				"tilt" : "79.7",
+				"heading" : "245.5",
+				"camera_pos_lat" : -4.056,
+				"camera_pos_lon" : 137.215,
+				"camera_pos_z" : 5500
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 86.9252929688, 27.9879150391 ]
+			},
+			"properties" : {
+				"geonameid" : 1283416,
+				"name" : "Mount Everest",
+				"asciiname" : "Mount Everest",
+				"alternatenames" : "Ai-fo-lo-ssu Feng,Bantay Everest,Beinn Everest,Berg Everest,Bukid Everest,Bundok Everest,Chomo-lungma,Chomolangma Hong,Chomolongma,Chomolungma,Chomolungma Hung,Chomolungma Hŭng,Chu-muk-long-ma-fung,Ch",
+				"latitude" : 27.98791,
+				"longitude" : 86.92529,
+				"feature_class" : "T",
+				"feature_code" : "MT",
+				"country_code" : "NP",
+				"elevation" : 8848,
+				"dem" : 8794,
+				"altitude" : 8848,
+				"timezone" : "Asia/Urumqi",
+				"modification_date" : "2017-01-25",
+				"zoom" : "12.7",
+				"tilt" : "74",
+				"heading" : "88",
+				"camera_pos_lat" : 28.0,
+				"camera_pos_lon" : 86.6,
+				"camera_pos_z" : 15000
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 42.4390869141, 43.3551025391 ]
+			},
+			"properties" : {
+				"geonameid" : 563532,
+				"name" : "Mount Elbrus",
+				"asciiname" : "Mount Elbrus",
+				"alternatenames" : "Ehl'brus,Elborus,Elboruz,Elbrus,Elbruz,Elburz,Mingi-tau,Monte Elbrus,Mt'a Ialbruzi,Эльбрус",
+				"latitude" : 43.355,
+				"longitude" : 42.43917,
+				"feature_class" : "T",
+				"feature_code" : "MT",
+				"country_code" : "RU",
+				"elevation" : 5642,
+				"dem" : 5542,
+				"altitude" : 5642,
+				"timezone" : "Europe/Moscow",
+				"modification_date" : "2013-02-12",
+				"zoom" : "12.8",
+				"tilt" : "83",
+				"heading" : "348",
+				"camera_pos_lat" : 43.108,
+				"camera_pos_lon" : 42.503,
+				"camera_pos_z" : 6200
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 37.3532714844, -3.0758056641 ]
+			},
+			"properties" : {
+				"geonameid" : 157452,
+				"name" : "Kilimanjaro",
+				"asciiname" : "Kilimanjaro",
+				"alternatenames" : "Bantay Kilimanjaro,Bukid Kilimanjaro,Chilimangiaro,Chilimangiaru,Gara Kilimandzhara,Gunung Kilimanjaro,JRO,Kelemandzars,Kilimancaro,Kilimandiarus,Kilimandjaro,Kilimandscharo,Kilimandscharo-Massiv,Kili",
+				"latitude" : -3.07583,
+				"longitude" : 37.35333,
+				"feature_class" : "T",
+				"feature_code" : "MT",
+				"country_code" : "TZ",
+				"elevation" : 5895,
+				"dem" : 5865,
+				"altitude" : 5895,
+				"timezone" : "Africa/Dar_es_Salaam",
+				"modification_date" : "2016-07-26",
+				"zoom" : "11.9",
+				"tilt" : "81",
+				"heading" : "29",
+				"camera_pos_lat" : -3.49,
+				"camera_pos_lon" : 37.08,
+				"camera_pos_z" : 14000
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ -151.0061035156, 63.0692749023 ]
+			},
+			"properties" : {
+				"geonameid" : 5868589,
+				"name" : "Denali",
+				"asciiname" : "Denali",
+				"alternatenames" : "Bolshoy,Bulshaia Gora,Bulshaya Gora,Bulshoe,Churchill Peak,Churchill Peaks,Ciyaye Denali,Deenaalee,Deenadhee,Deenadheet,Deenalee,Deghilaay Ce'e,Deghilaay Ke'e,Delaykah,Denadhe,Denagadh,Denali,Denali m",
+				"latitude" : 63.06933,
+				"longitude" : -151.00609,
+				"feature_class" : "T",
+				"feature_code" : "MT",
+				"country_code" : "US",
+				"elevation" : 6194,
+				"dem" : 6098,
+				"altitude" : 6194,
+				"timezone" : "America/Anchorage",
+				"modification_date" : "2015-08-31",
+				"zoom" : 11.4,
+				"tilt" : 81.5,
+				"heading" : 333,
+				"camera_pos_lat" : 62.722,
+				"camera_pos_lon" : -150.7,
+				"camera_pos_z" : 8800
+			}
+		}
+	]
+}

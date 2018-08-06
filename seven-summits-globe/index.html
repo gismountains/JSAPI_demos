@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1">
+  <title>Seven summits</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.8/esri/css/main.css">
+  <link rel="stylesheet" href="custom.css">
+  <script>
+    var dojoConfig = {
+      packages: [{
+        name: "app",
+        location: location.pathname.replace(/[^/]+$/, "") + "app"
+      }],
+      has: {
+        // 1: enables a better debugging support while having an impact on the performance of the app
+        "config-deferredInstrumentation": 1
+      },
+      async: true
+    };
+  </script>
+  <script src="https://js.arcgis.com/4.8/"></script>
+</head>
+
+<body>
+  <div id="image"></div>
+  <div id="summitPanel">
+    <h2>The Seven Summits</h2>
+    <p>
+      <button id="globe" class="summitbutton summitbutton-globe">Show the globe</button></br>
+      <button id="Mount Everest" class="summitbutton">Mount Everest – 8850m</button></br>
+      <button id="Cerro Aconcagua" class="summitbutton">Cerro Aconcagua – 6960m</button></br>
+      <button id="Denali" class="summitbutton">Denali – 6194m</button></br>
+      <button id="Kilimanjaro" class="summitbutton">Kilimanjaro – 5896m</button></br>
+      <button id="Mount Elbrus" class="summitbutton">Mount Elbrus – 5642m</button></br>
+      <button id="Vinson Massif" class="summitbutton">Vinson Massif – 4897m</button></br>
+      <button id="Puncak Jaya" class="summitbutton">Puncak Jaya – 4884m</button></br>
+    </p>
+  </div>
+  <div id="view"></div>
+  <script>
+    require([
+      "app/main",
+      "dojo/domReady!"
+    ], function (app) {
+      app.init();
+    });
+  </script>
+</body>
+
+</html>

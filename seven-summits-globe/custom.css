@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #1971b1;
+  background: linear-gradient(150deg, #5782f7, #97d4ff) no-repeat;
+}
+
+#view {
+  height: 100%;
+  width: 100%;
+  filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.8));
+}
+
+#image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image:url('./background.jpg');
+  background-size: cover;
+}
+
+#summitPanel {
+  position: absolute;
+  z-index: 70;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 15px;
+  height: 100%;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.6);  
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #98cbf0
+}
+
+.summitbutton {
+  background-color: #1971b1;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 4px solid #98cbf0;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.summitbutton-globe {
+  background-color: #083b5f;
+}
+
+.summitbutton:hover {background-color: #6d98b8}

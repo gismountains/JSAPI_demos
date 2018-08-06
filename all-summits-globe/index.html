@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1">
+  <title>Summits around the world</title>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.8/esri/css/main.css">
+  <link rel="stylesheet" href="css/nouislider.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script>
+    var locationPath = location.pathname.replace(/\/[^\/]+$/, '');
+    window.dojoConfig = {
+      packages: [{
+        name: 'nouislider',
+        location: locationPath + 'app',
+        main: 'nouislider.min'
+      }, {
+        name: 'utils',
+        location: locationPath + 'app',
+        main: 'utils'
+      }]
+    };
+
+  </script>
+  <script src="https://js.arcgis.com/4.8/"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <script src="app/main.js"></script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+  <div id="summitSlider"></div>
+  <footer>
+    <h1>Summits around the globe</h1>
+    <p>The list of the summits is an export from <a href="www.geonames.org" target="_blank">www.geonames.org</a>.<br/> 
+      The geonames are catagorized in different topics/classes. For the summits the data are filtered to the class "T mountain,hill,rock,..." with code "MT	mountain", "MTS	mountains", "PK	peak" and "PKS peaks".
+      The attribute altitude is set to "elevation" if existing, otherwise the value is set from "digital elevation model".
+    </p>    
+  </footer>
+</body>
+
+</html>
