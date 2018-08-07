@@ -289,10 +289,8 @@ define([
       });
 
       // ************* click on summit *******
-      // This do not work at the moment --> check the error
-
       // and retrieve the screen x, y coordinates
-      view.on("pointer-down", eventHandlerPointerDown);
+      view.on("click", eventHandlerPointerDown);
 
       function eventHandlerPointerDown(event) {
         // the hitTest() checks to see if any graphics in the view
